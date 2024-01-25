@@ -25,7 +25,13 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r, echo=FALSE}
 x <- rnorm(100, 0, 1)
 y <- rnorm(100, 5, 1)
-plot(x~y)
+Data <- data.frame(x, y)
+```
+```{r}
+# make ggplot 
+library(ggplot2)
+ggplot(Data, aes(x = x, y=y)) +
+         geom_point()
 ```
 
 ### A map of cat distribution
