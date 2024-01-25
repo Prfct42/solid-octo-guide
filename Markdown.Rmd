@@ -1,0 +1,33 @@
+---
+title: "MarkdownTest"
+output: html_document
+date: "2024-01-25"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Scientific evidence for owning cats
+## Why should you own a cat?
+
+```{r, echo=FALSE}
+## People can't see your data when the doc is produced.
+
+```
+
+### Look at this cat.
+
+![This is a picture of a cat](https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png)
+
+
+
+# All of these are points are cats:
+```{r, echo=FALSE}
+x <- rnorm(100, 0, 1)
+y <- rnorm(100, 5, 1)
+plot(x~y)
+```
+
+### A map of cat distribution
+
+![A map of cat distribution](http://www.dr-chuck.com/csev-blog/wp-content/uploads/2012/09/2012-09-where-are-you.png)
